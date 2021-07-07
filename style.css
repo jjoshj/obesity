@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100vh;
+}
+
+  
+.dot{
+    border-style: none dashed none none;
+    border-color: #99AABA; 
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 140%;
+    position: absolute;
+    left: 50%;
+}
+
+.obesity {
+    font-family: 'Noto Sans', sans-serif ;
+    text-align: center;
+    font-size: 350%;
+    font-weight: 1000;
+    color: #19A6B8;
+}
+.info {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-left: 6px;
+    /* height: 20px; */
+    color: #FCBF17;
+}
+.boxed {
+    border: 1px solid blue;
+    width: 90%;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #19AEC2;
+    
+}
+.Lorem{
+    text-align: center;
+    color: #959595;
+    font-size: 20px;
+    
+} 
+.healthy{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px ;
+    color: rgb(17, 17, 112);
+    padding-left: 3%;
+    
+}
+.whole{
+  font-family: 'Noto Sans', sans-serif ;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #19A6B8;
+}
+.perc{
+  font-family: 'Noto Sans', sans-serif ;
+  font-size: 50px;
+  
+  
+  font-weight: bolder;
+  color: #FCBF17;
+}
+.sit{
+  color: #19A6B8;
+  width: 75%;
+
+}
+.breed{
+  height: 5em;
+  width: 7em;
+  padding-left: 20%;
+}
+.ice{
+  padding-right: 10%;
+  height: 6em;
+  width: 7em;
+}
+.fries{
+  padding-left: 5%;
+}
+.donet{
+  height: 9em;
+  padding-left: 7%;
+}
+.shake{
+  padding-left: 8%;
+}
+.near{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 40px ;
+  color: rgb(17, 17, 112);
+  
+  
+}
+.five{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 60px ;
+  color: #FCBF17;
+}
+.million{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px ;
+  color: #19A6B8;
+
+  
+}
+.adult{
+  font-family: 'Noto Sans', sans-serif;
+  
+  color: #FCBF17;
+  font-size: 150%;
+  font-weight: bolder;
+}
+.six{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 300%;
+  font-weight: bolder;
+  
+  color: rgb(17, 17, 112);
+}
+.man{
+  height: 5em;
+  width:2em;
+}
+.eight{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px ;
+  color: #FCBF17;
+}
+.inj{
+  height: 8em;
+  width: 8em;
+}
